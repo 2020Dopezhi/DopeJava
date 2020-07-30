@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - [一、修改HashTable](#一修改hashtable)
 - [二、Colletions.synchronizedMap](#二colletionssynchronizedmap)
 - [三、1.7的ConcurrentHashMap](#三17的concurrenthashmap)
@@ -11,6 +12,24 @@
   - [1.8 size](#18-size)
 - [五、快速失败(fail-fast) & 安全失败(fail—safe)](#五快速失败fail-fast--安全失败failsafe)
 - [六、参考资料](#六参考资料)
+=======
+Table of Contents
+=================
+
+   * [一、修改HashTable]()
+   * [二、Colletions.synchronizedMap]()
+   * [三、1.7的ConcurrentHashMap]()
+      * [1.7 put]()
+      * [1.7 get]()
+      * [1.7 size]()
+   * [四、1.8的ConcurrentHashMap]()
+      * [1.8 put]()
+         * [CAS 与 ABA]()
+      * [1.8 get]()
+      * [1.8 size]()
+   * [五、快速失败(fail-fast) &amp; 安全失败(fail—safe)]()
+   * [六、参考资料]()
+>>>>>>> fcd39ecd14384f940d209957a3663874c3b35154
 # 一、修改HashTable
 HashTable是线程安全的HashMap，里面的方法都是用synchronized修饰过的，跟HashMap有以下不同之处：
 - 初始容量不同，HashMap是16，HashTable是11

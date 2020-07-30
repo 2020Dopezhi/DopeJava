@@ -1,5 +1,5 @@
 [TOC]
-# 一、HashTable
+# 一、修改HashTable
 HashTable是线程安全的HashMap，里面的方法都是用synchronized修饰过的，跟HashMap有以下不同之处：
 - 初始容量不同，HashMap是16，HashTable是11
 - 扩容倍数不同，HashMap扩容是1.5倍，而HashTable是2倍
